@@ -1,0 +1,39 @@
+To complete Assignment 2 I only used git bash and the anaconda prompt. My first step was to clone the software development repository to get access to the environment files to reproduce. 
+
+	Steps and commands in git bash: 
+
+	1. Cloned repository: git clone https://github.com/augustinh22/geo-software-dev.git  
+	
+	Steps and commands in Anaconda prompt:
+
+	2. Navigated to correct folder in the repo: cd desktop, cd geo-software-dev, cd A2
+
+	3. Created environment: conda env create -f software_dev_v1.yml
+
+	4. Activated environment: conda activate software_dev_v1.yml
+
+	5. Installed colored package: conda install -c conda-forge colored
+
+	6. Checked that colored package was successfully added: conda list
+
+	7. Exported modified environment file: conda env export > software_dev_v1_memulder.yml
+
+	8. Deactivate environment: conda deactivate
+
+I then pushed the modified environment file to my personal repo on github. 
+
+	Steps and commands in git bash:
+
+	1. Cloned personal repo: git clone https://github.com/MadelineMulder/PLUS_softwaredev_2023_memulder.git
+
+	2. Navigated to my personal repo: cd desktop, cd PLUS_softwaredev_2023_memulder
+
+	2. Manually copied file from software development repo to personal repo 
+
+	3. Added file to staging area of personal repo: git add software_dev_v1_memulder.yml
+
+	4. Commited file with description: git commit -m "my description"
+
+	5. pushed file to repo: git push origin main
+
+I was not able to reproduct the second environment as each time I tried to create the environment it got stuck spinning on the "solving environment" step. 
