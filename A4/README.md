@@ -1,0 +1,1 @@
+This is a folder containing all documents related to Assignment 4 for the Practice for Software Development Class. It includes an environment file necessary for running the notebook file which calls the functions contained in the included python file.
